@@ -1,0 +1,112 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/* Clear fix hack - stops containers from collapsing*/
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 1em;
+     font-family: 'Andada Pro', serif;;
+}
+
+.wrapper{
+     max-width: 900px;
+     margin: auto;
+     padding: 40px;
+}
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+p{
+     padding: 2rem;
+     line-height: 1.4rem;
+}
+
+.bannerImage{
+     width:100%
+}
+
+
+.services{
+     color: rgb(211,35,35);
+     text-align: center;
+     width: 100%;
+     padding: 1%;
+     margin: 1%;
+     height: 140px;
+}
+
+.navContainer{
+     position:relative;
+     height:100px;
+}
+.navHeader{
+     background-color: rgb(35,39,45);
+     height: 100px;
+     position:fixed;
+     width:100%;
+}
+
+
+.navHeader ul li{
+     color: rgb(255,255,255);
+     color:white;
+     
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+.grey{
+     background:rgb(245,245,245) ;
+}
+
+.toggleHidden{
+     display:none;
+}
+
+
+
+/* .wrapper:after{
+     content:'';
+     display:block;
+     clear: both;
+} */
+
